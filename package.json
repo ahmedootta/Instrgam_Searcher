@@ -1,0 +1,25 @@
+{
+  "name": "instagram-media-scraper",
+  "version": "1.0.0",
+  "description": "This is simple Node.js (v20.12+) script to get public **information** and **media** (_images_, _videos_, _carousel_) from a specific instagram post or reel URL without API. Working in 2025.",
+  "main": "searcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedrangel/instagram-media-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedrangel/instagram-media-scraper/issues"
+  },
+  "homepage": "https://github.com/ahmedrangel/instagram-media-scraper#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "pako": "^2.1.0"
+  }
+}

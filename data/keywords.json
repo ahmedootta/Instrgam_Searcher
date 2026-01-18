@@ -1,0 +1,105 @@
+{
+  "description": "Search keywords organized by phases for PT finder",
+  
+  "ptKeywordsEnglish": [
+    "personal trainer",
+    "fitness trainer",
+    "strength coach",
+    "gym trainer",
+    "fitness coach",
+    "certified trainer",
+    "body trainer",
+    "online trainer",
+    "nutrition coach",
+    "conditioning coach",
+    "wellness coach",
+    "lifestyle coach"
+  ],
+
+  "ptKeywordsArabic": [
+    "مدرب شخصي",
+    "مدرب لياقة",
+    "كوتش",
+    "مدرب جيم",
+    "مدرب صحة",
+    "كوتش لياقة",
+    "مدرب قوة",
+    "مدرب اللياقة",
+    "مدرب التغذية",
+    "مدرب التحول",
+    "كوتش اونلاين",
+    "مدرب تدريب"
+  ],
+
+  "egyptianLocations": [
+    "مصر",
+    "القاهرة",
+    "الجيزة",
+    "الإسكندرية",
+    "المنصورة",
+    "الإسماعيلية",
+    "بورسعيد",
+    "أسيوط",
+    "المحلة",
+    "القليوبية",
+    "القاهرة الجديدة",
+    "مدينة نصر"
+  ],
+
+  "egyptianFitnessHashtags": [
+    "#FitnessEgypt",
+    "#EgyptGym",
+    "#CairoFitness",
+    "#EgyptPT",
+    "#FitnessTrainer",
+    "#PersonalTraining",
+    "#HealthyEgypt",
+    "#FitEgypt",
+    "#CoachEgypt",
+    "#TrainerLife",
+    "#GymEgypt",
+    "#FitnessCommunity",
+    "#EgyptFitness"
+  ],
+
+  "bioFilterKeywords": {
+    "english": [
+      "trainer",
+      "coach",
+      "personal training",
+      "fitness",
+      "strength",
+      "gym",
+      "certified"
+    ],
+    "arabic": [
+      "مدرب",
+      "كوتش",
+      "تدريب",
+      "لياقة",
+      "جيم",
+      "تغذية",
+      "صحة"
+    ]
+  },
+
+  "excludeKeywords": {
+    "english": [
+      "trainee",
+      "student",
+      "fitness lover",
+      "gym enthusiast",
+      "gym rat",
+      "just started",
+      "beginner"
+    ],
+    "arabic": [
+      "طالب",
+      "عاشق",
+      "هاوي",
+      "متابع",
+      "مجرد",
+      "حديث"
+    ]
+  }
+}
