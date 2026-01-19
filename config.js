@@ -22,9 +22,9 @@ module.exports = {
     maxResultsPerKeyword: 100,
     pagesPerKeyword: 3, // How many pages to fetch per keyword
     delaySecs: {
-      betweenRequests: 0.5, // 500ms between requests
-      betweenNames: 2,      // 2 seconds between name searches
-      betweenPhases: 3      // 3 seconds between phase transitions
+      betweenRequests: 1.5,  // 1500ms (1.5s) between profile requests - AVOID RATE LIMIT
+      betweenNames: 3,       // 3 seconds between name searches
+      betweenPhases: 5       // 5 seconds between phase transitions
     }
   },
 
