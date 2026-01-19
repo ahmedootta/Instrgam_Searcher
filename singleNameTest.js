@@ -6,6 +6,7 @@
 
 const PTFinder = require('./lib/searcher');
 const { logger } = require('./lib/utils');
+const config = require('./config');
 
 class SingleNameTester extends PTFinder {
   async testSingleName(nameToTest) {
@@ -47,7 +48,7 @@ class SingleNameTester extends PTFinder {
 }
 
 async function main() {
-  const testName = process.argv[2] || 'Ahmed'; // Default to Ahmed if no name provided
+  const testName = process.argv[2] || config.IG_USERNAME || 'Ahmed'; // Default to env username or Ahmed
   
   console.log(`
 ╔════════════════════════════════════════════════════════════════════════════╗
